@@ -1,0 +1,29 @@
+{
+  "name": "football-finder",
+  "version": "1.0.0",
+  "description": "fantasy football player finder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesD11/football-finder.git"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "James D",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JamesD11/football-finder/issues"
+  },
+  "homepage": "https://github.com/JamesD11/football-finder#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mysql": "^2.11.1",
+    "sequelize": "^3.23.3"
+  }
+}
