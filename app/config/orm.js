@@ -4,7 +4,7 @@ var tableName  = 'players';
 
 var orm ={
       allPlayers:function(callback){
-            var s= 'SELECT * FROM' + tableName;
+            var s= 'SELECT * FROM' + tableName + ';';
 
             connection.query(s, function(err, result) {
 
